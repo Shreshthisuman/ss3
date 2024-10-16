@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking - Movies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .featured-movies {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .movies-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .movie-card {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        .movie-card img {
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #ff3b3f;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            display: block;
+            margin: 10px auto;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Movie Tickets</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="booking.html">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Featured Movies Section -->
+    <section class="featured-movies">
+        <h2>Now Showing</h2>
+        <div class="movies-grid">
+            <div class="movie-card">
+                <img src="C:\Users\shres\OneDrive\Desktop\collage notes\movie\stree.jpg" alt="Movie 1 Poster">
+                <h3>Stree</h3>
+                <p>A thrilling adventure!</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="C:\Users\shres\OneDrive\Desktop\collage notes\movie\stree 2.jpg" alt="Movie 2 Poster">
+                <h3>Stree 2</h3>
+                <p>An emotional journey!</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+            <div class="movie-card">
+                <img src="C:\Users\shres\OneDrive\Desktop\collage notes\movie\Munjya.jpg" alt="Movie 3 Poster">
+                <h3>Munjya</h3>
+                <p>A comedy for everyone!</p>
+                <a href="booking.html" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Movie Ticket Booking. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
